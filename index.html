@@ -57,6 +57,7 @@
           <div class="cc-profile-image"><a href="#"><img src="images/logo.jpg" alt="Image"/></a></div>
           <div class="h2 title">Wejdan Mohammed Altaleb</div>
           <p class="category text-white">Full Stack Web Developer</p>
+          
 <a class="btn btn-primary" href="https://github.com/wjdan-1997/Resume_Wejdan/raw/master/certification/Resume_wejdan%204.pdf" target="_blank" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Download My Resume</a>
         </div>
       </div>
@@ -73,6 +74,7 @@
         <div class="col-lg-6 col-md-12">
           <div class="card-body">
             <div class="h4 mt-0 title">About Me</div>
+            
             <p  style="font-size:large";> 
               A self-motivated person who has a huge passion for web development, and working in the IT field to apply my up-to-date knowledge in web development, leverage my skills to meet organization needs and objectives. Furthermore, I am flexible, eager to learn from others, calm under pressure, enjoy working with others as a team, and have a positive attitude. All of these qualities contribute on a daily basis directly to the busy work environment.
 
@@ -193,34 +195,66 @@
   <div class="section" id="Certification">
     <div class="container">
       <div class="h4 text-center mb-4 title"> Certification</div>
+
+
+
       <table id="Certificat">
         <tr>
-          <th>Company</th>
-          <th>Contact</th>
+          <th>Certificat</th>
+          <th>Download</th>
+          <th>Show</th>
         </tr>
         <tr>
           <td>Full Stack Developer Nanodegree</td>
-          <td><a href="https://github.com/wjdan-1997/Resume_Wejdan/raw/master/certification/Full%20Stack%20Developers.pdf"target="_blank" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Show</a></td>
-         
+          <td><a class="a_table" href="https://github.com/wjdan-1997/Resume_Wejdan/raw/master/certification/Full%20Stack%20Developers.pdf"target="_blank" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Download</a></td>
+           <!--  -->
+
+
+          <td ><button class="cert btn btn-primary" id="button1" onclick="certificat1()">Show</button>
+            <img  style="width: 35rem;display: none;" id="Certificate1"
+              src="/certification/fullstack_img.PNG" alt="showCertficate"/>
+            </td>
         </tr>
+
+
+
+
+
         <tr>
           <td>Front End Developer Nanodegree</td>
-
-          <td><a class="btn btn-primary" href="https://github.com/wjdan-1997/Resume_Wejdan/raw/master/certification/Front%20End%20Developer.pdf" target="_blank" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Show</a></td> 
+          <td><a  class="a_table" href="https://github.com/wjdan-1997/Resume_Wejdan/raw/master/certification/Front%20End%20Developer.pdf" target="_blank" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Download</a></td> 
+           <!--  -->
+          <td ><button class="cert btn btn-primary" id="button2" onclick="certificat2()">Show</button>
+            <img style="width: 35rem;display: none;" id="Certificate2"
+              src="/certification/frontend_img.PNG" alt="showCertficate"/>
+            </td>
         </tr>
+
+
         <tr>
           <td> Carer Preparation Program</td>
-          <td><a class="btn btn-primary" href="https://github.com/wjdan-1997/Resume_Wejdan/raw/master/certification/MiskAcademy.pdf" target="_blank" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Show</a></td> 
-
+          <td><a class="a_table" href="https://github.com/wjdan-1997/Resume_Wejdan/raw/master/certification/MiskAcademy.pdf" target="_blank" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Download</a></td> 
+          <!--  -->
+          <td ><button class=" cert btn btn-primary" id="button3" onclick="certificat3()">Show</button>
+            <img style="width: 35rem;display: none;" id="Certificate3"
+              src="/certification/MiskAcademy_img.PNG" alt="showCertficate"/>
+            </td>
+            
         </tr>
         <tr>
           <td>Build modern responsive websites with HTML5 and CSS3</td>
-          <td><a class="btn btn-primary" href="https://github.com/wjdan-1997/Resume_Wejdan/raw/master/certification/udemy.pdf"target="_blank" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Show</a></td> 
-
+          <td><a class="a_table" href="https://github.com/wjdan-1997/Resume_Wejdan/raw/master/certification/udemy.pdf"target="_blank" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Download</a></td> 
+          <!--  -->
+          <td><button class=" cert btn btn-primary" id="button4" onclick="certificat4()">Show</button>
+            <img style="width: 35rem;display: none;" id="Certificate4"
+              src="/certification/udemy_img.PNG" alt="showCertficate"/>
+            </td>
        
         </tr>
+        
+
+      
        </table>
-     
     </div>
   </div>
   
@@ -258,7 +292,7 @@
 
 <div class="section" id="skill">
   <div class="container">
-    <div class="h4 text-center mb-4 title"> <h4>Skills</h4></div>
+    <div class="h4 text-center mb-4 title"> <h4 class="text-center pt-5">Skills</h4></div>
    
         <ul class="list-inline dev-icons">
           <li class="list-inline-item">
@@ -388,7 +422,7 @@
                     <span class="MuiButton-label"> Show</span>
                     <span class="MuiTouchRipple-root"> </span>
                   </button> -->
-
+                
                   <a class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-colorInherit MuiButton-outlinedSizeSmall MuiButton-sizeSmall MuiButton-fullWidth" 
                     tabindex="0"  aria-disabled="false" href="https://github.com/wjdan-1997/job_api" target="_blank">
                      <span class="MuiButton-label"> 
@@ -466,6 +500,7 @@
                 </span>
                <span class="MuiTouchRipple-root"> </span>
             </a>
+            
             </div>
       </div>
    
@@ -511,8 +546,6 @@
 <script>
   !function(e){function r(r){for(var n,l,p=r[0],f=r[1],i=r[2],c=0,s=[];c<p.length;c++)l=p[c],Object.prototype.hasOwnProperty.call(o,l)&&o[l]&&s.push(o[l][0]),o[l]=0;for(n in f)Object.prototype.hasOwnProperty.call(f,n)&&(e[n]=f[n]);for(a&&a(r);s.length;)s.shift()();return u.push.apply(u,i||[]),t()}function t(){for(var e,r=0;r<u.length;r++){for(var t=u[r],n=!0,p=1;p<t.length;p++){var f=t[p];0!==o[f]&&(n=!1)}n&&(u.splice(r--,1),e=l(l.s=t[0]))}return e}var n={},o={1:0},u=[];function l(r){if(n[r])return n[r].exports;var t=n[r]={i:r,l:!1,exports:{}};return e[r].call(t.exports,t,t.exports,l),t.l=!0,t.exports}l.m=e,l.c=n,l.d=function(e,r,t){l.o(e,r)||Object.defineProperty(e,r,{enumerable:!0,get:t})},l.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},l.t=function(e,r){if(1&r&&(e=l(e)),8&r)return e;if(4&r&&"object"==typeof e&&e&&e.__esModule)return e;var t=Object.create(null);if(l.r(t),Object.defineProperty(t,"default",{enumerable:!0,value:e}),2&r&&"string"!=typeof e)for(var n in e)l.d(t,n,function(r){return e[r]}.bind(null,n));return t},l.n=function(e){var r=e&&e.__esModule?function(){return e.default}:function(){return e};return l.d(r,"a",r),r},l.o=function(e,r){return Object.prototype.hasOwnProperty.call(e,r)},l.p="/";var p=this["webpackJsonpmy-project"]=this["webpackJsonpmy-project"]||[],f=p.push.bind(p);p.push=r,p=p.slice();for(var i=0;i<p.length;i++)r(p[i]);var a=f;t()}([])
 </script>
-<script src="/static/js/2.6acc4cc5.chunk.js"> </script>
-<script src="/static/js/main.8fd802e7.chunk.js"></script>
 
 
 
@@ -539,5 +572,6 @@
     <script src="js/now-ui-kit.js?v=1.1.0"></script>
     <script src="js/aos.js"></script>
     <script src="scripts/main.js"></script>
+    <script src="js/certificat.js"></script>
   </body>
 </html>

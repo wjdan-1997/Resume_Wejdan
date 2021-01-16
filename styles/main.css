@@ -7211,6 +7211,29 @@ Created using IcoMoon - icomoon.io
     background-color: #343a40;
     color: white;
   }
+  #certificationimg{
+    width: 35rem;
+    display: none;
+    background-image: url(../certification/frontend_img.PNG);
+    
+
+  }
+  td .a_table{
+    color: black;
+  
+  }
+ 
+  .cert{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(128, 128, 128, 0.349);
+  }
+  .cert:hover{
+    color: black;
+    
+
+
+  }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
   .section-images .hero-images-container,
@@ -7659,9 +7682,9 @@ a.credit {
 
 
 .dev-icons {
-  font-size: 9rem;
-  margin-top: 20px;
-    margin-bottom: 30px;
+  font-size: 6rem;
+  margin-top: 22px;
+    margin-bottom: 22px;
 }
 
 .list-inline {
