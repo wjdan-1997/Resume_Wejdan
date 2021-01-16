@@ -7187,6 +7187,31 @@ Created using IcoMoon - icomoon.io
   }
 }
 
+  #Certificat {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    
+  }
+  
+  #Certificat td, #Certificat th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  #Certificat tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #Certificat tr:hover {background-color: #ddd;}
+  
+  #Certificat th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #343a40;
+    color: white;
+  }
+
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
   .section-images .hero-images-container,
   .section-images .hero-images-container-1,
