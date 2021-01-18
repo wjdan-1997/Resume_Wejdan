@@ -3246,6 +3246,7 @@ p {
 }
 
 .category {
+  font-size: small;
   text-transform: capitalize;
   font-weight: 700;
   color: black;
