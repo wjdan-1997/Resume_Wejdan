@@ -30,12 +30,12 @@
             </div>
             <div class="collapse navbar-collapse justify-content-end" id="navigation">
             <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link smooth-scroll" href="#about">About</a></li> 
+                <!-- <li class="nav-item"><a class="nav-link smooth-scroll" href="#about">About</a></li> 
                 <li class="nav-item"><a class="nav-link smooth-scroll" href="#education">Education</a></li> 
                 <li class="nav-item"><a class="nav-link smooth-scroll" href="#Certification">Certification</a></li>
                 <li class="nav-item"><a class="nav-link smooth-scroll" href="#experience">Experience</a></li> 
                 <li class="nav-item"><a class="nav-link smooth-scroll" href="#skill">Skills</a></li>
-                <li class="nav-item"><a class="nav-link smooth-scroll" href="#portfolio">Portfolio</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#portfolio">Portfolio</a></li> -->
               
            
               </ul>
@@ -69,7 +69,7 @@
 </div>
 
 <!-- about me -->
-<div class="section" id="about"> 
+<section class="section" id="about" data-nav="About "> 
   <div class="container">
     <div class="card" data-aos="fade-up" data-aos-offset="10">
       <div class="row">
@@ -116,11 +116,11 @@
         </div>
       </div>
     </div>
-  </div>
-</div>
+  
+  </section>
 
 <!-- education -->
-<div class="section" id="education">
+<section class="section" id="education" data-nav="Education">
   <div class="container cc-education">
     <div class="h4 text-center mb-4 title">Education</div>
     <div class="card">
@@ -190,11 +190,10 @@
       </div>
     </div>
   </div>
-</div>
-<!-- Cert -->
+</section>
 
-
-  <div class="section" id="Certification">
+<!-- Certification -->
+  <section class="section" id="Certification" data-nav="Certification">
     <div class="container">
       <div class="h4 text-center mb-4 title"> Certification</div>
 
@@ -258,25 +257,25 @@
       
        </table>
     </div>
-  </div>
-  
+  </section>
   
 <!--experience  -->
-
-<div class="section" id="experience">
+<section class="section" id="experience" data-nav="Experience">
   <div class="container cc-experience">
     <div class="h4 text-center mb-4 title">Experience</div>
     <div class="card">
       <div class="row">
         <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
           <div class="card-body cc-experience-header">
-            <p>May2018-Jane2018</p>
-            <div class="h5" style="font-size: medium;">Sales Manager | Trainee</div>
+            <p>May-2018  Jane-2018</p>
+            <i class="far fa-calendar-alt" style="font-size: 29px;"></i>
           </div>
         </div>
         <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
           <div class="card-body">
             <div class="h5">Al Rajhi Bank</div>
+            <p class="category" >Sales Manager | Trainee</p>
+
             <p style="font-size: large;">- Responsible for customer orientation and dealing <br>
               - Processing papers to open an account for new coustomers<br>
               - Check mail files <br>
@@ -285,14 +284,37 @@
         </div>
       </div>
     </div>
+    <div class="card">
+      <div class="row">
+        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body cc-experience-header">
+            <p>May-2019 Dec-2019</p>
+            <i class="far fa-calendar-alt" style="font-size: 29px;"></i>
+          </div>
+        </div>
+        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body">
+            <div class="h5">Front-End Developer </div>
+            <p class="category"  > Prince Sattam Bin Abdulaziz University | Graduation Project</p>
 
+            <p style="font-size: large;line-height: 30px; ">- I was the team leader, front-end developer, and prepare reports.<br>
+              - Built a website to serves the education guidance employee.
+               <br>  (which replaces the paper system with an electronic system).
+
+              <br>
+            - Created using PHP as a back-end, HTML, CSS, and JavaScript as a front-end, and Mysql for database .
+          </p>
+          </div>
+        </div>
+      </div>
+    </div>
   
   </div>
-</div>
+</section>
 
 <!-- skill -->
 
-<div class="section" id="skill">
+<section class="section" id="skill" data-nav="Skills">
   <div class="container">
     <div class="h4 text-center mb-4 title"> <h4 class="text-center pt-5">Skills</h4></div>
    
@@ -331,11 +353,11 @@
         </ul>
    
   </div>
-</div>
+</section>
 
 <!-- portfolio -->
 
-<section class="container responsive" id="portfolio">
+<section class="container responsive" id="portfolio" data-nav="Portfolio">
     <h1 class="text-center pt-5">Portfilio</h1>
 
 <div class="row" style="opacity: 1;">
@@ -575,5 +597,6 @@
     <script src="js/aos.js"></script>
     <script src="scripts/main.js"></script>
     <script src="./js/certificat.js"></script>
+    <script src="js/loop.js"></script>
   </body>
 </html>

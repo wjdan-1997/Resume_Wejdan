@@ -3246,35 +3246,11 @@ p {
 }
 
 .category {
-  text-transform: uppercase;
+  text-transform: capitalize;
   font-weight: 700;
-  color: #9A9A9A;
+  color: black;
 }
-
-.text-primary {
-  color: #378C3F !important;
-}
-
-.text-info {
-  color: #2CA8FF !important;
-}
-
-.text-success {
-  color: #18ce0f !important;
-}
-
-.text-warning {
-  color: #FFB236 !important;
-}
-
-.text-danger {
-  color: #FF3636 !important;
-}
-
-.text-black {
-  color: #444;
-}
-
+ 
 .blockquote {
   border-left: none;
   border: 1px solid #888;
@@ -3354,8 +3330,6 @@ line-height: 1.5;
 }
 
 .button-bar {
-  background-position: ;
- 
 
   display: block;
   position: relative;
@@ -7574,7 +7548,7 @@ Created using IcoMoon - icomoon.io
   padding-right: 0;
   text-align: center;
   color: #fff;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 /* Education Style */
@@ -7583,7 +7557,7 @@ Created using IcoMoon - icomoon.io
 }
 
 .cc-education .cc-education-header {
-  padding-top: 60px;
+  padding-top: 70px;
   padding-right: 0;
   text-align: center;
   color: #fff;
@@ -7591,7 +7565,7 @@ Created using IcoMoon - icomoon.io
 
 /* References Style */
 .cc-reference .card {
-  padding: 40px;
+  padding: 20px;
 }
 
 .cc-reference img {
