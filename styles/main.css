@@ -7837,6 +7837,8 @@ font-weight: 700;
     min-width: 325px;
     max-width: 325px;
     min-height: 580px;
+    margin-right: 392px;
+    margin-left: 120px;
   }
   #card-container {
     margin-top: 200px;
