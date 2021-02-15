@@ -7696,3 +7696,284 @@ ul {
   margin-inline-end: 0px;
   padding-inline-start: 90px;
 }
+
+.education-main{
+  background-color: white;
+  width: 100vw;
+  min-width: 100vh;
+  font-size: 12px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+button {
+  background-color: white;
+  border: none;
+  text-align: left;
+  font: inherit;
+  padding: 0;
+  cursor: pointer;
+  color: inherit;
+}
+button:focus {
+  /* color: hsl(14, 59%, 33%); */
+  outline: none;
+}
+.questions-active {
+  font-weight: 700;
+  color: #8400ff;
+}
+.active {
+  height: auto;
+  max-height: 100px; 
+  opacity: 1;
+  padding-bottom: 2em;    
+}  
+.arrow-active {
+  transform: rotate(760deg);
+  
+}
+
+.arrow-active:hover {
+  transform: scale(4.2);
+  /* transform: rotate(310deg); */
+}
+
+#main-container {
+  position: relative;
+  width: 80%;
+  max-width: 920px;
+  min-height: 505px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#card-container{
+  position: relative;
+  width: 100%;
+  min-height: 505px;
+  display: flex;
+  background-color: white;
+  border-radius: 20px;
+  margin-top: 133px
+}
+
+#illustration {
+  width: 50%;
+  min-height: 100%;
+  height: 100%;  
+}
+
+#illustration-woman-container {
+  position: absolute;
+  height: 100%;
+  width: 50%;
+  overflow: hidden;
+}
+
+#bg-pattern {
+  position: absolute;
+  left: -580px;
+  top: 30%;
+  transform: translateY(-50%);
+}
+
+#illustration-woman {
+  position: absolute;
+  top: 50%;
+  left: -85px;
+  transform: translateY(-50%);
+  z-index: 2;
+}
+
+
+#box {
+  position: absolute;
+  top: 59%;
+  transform: translateY(-50%);
+  left: -95px;
+  z-index: 3;
+}
+
+#fqa{
+  margin-top: 3em;
+  margin-bottom: 3em;
+ 
+
+}
+.card-panel{
+  width: 70%;
+  height: 100%;
+}
+section{ display: block;}
+#title{
+font-size: 2.3em;
+font-weight: 700;
+}
+
+
+
+
+@media screen and (max-width: 1100px) {
+  .questions-container {
+    margin-right: 1em;
+    margin-left: 5em;
+    margin-bottom: 5;
+  }
+
+  #title {
+    margin-left: 2em;
+  }
+}
+
+@media screen and (max-width: 900px) {
+
+  #main-container {
+    min-width: 325px;
+    max-width: 325px;
+    min-height: 580px;
+  }
+  #card-container {
+    margin-top: 200px;
+    flex-direction: column;
+    min-height: 100%;    
+    overflow: visible;
+    padding-bottom: 20px;
+  }
+
+  .card-panel {
+    width: 100%;
+  }
+
+  #illustration-woman-container {
+    position: absolute;
+    height: 50%;
+    width: 100%;
+    overflow: visible;
+  }
+
+  #title {
+    text-align: center;
+    margin: 20px 0;
+  }
+
+  #illustration-woman {
+    width: 70%;
+    top: -105px;
+    left: 50%;
+    transform: translateX(-50%);    
+  }
+
+  #box {
+    width: 30%;
+    top: 0;
+    left: 38px;
+  }
+
+  #bg-pattern {
+    width: 70%;
+    top: -125px;
+    left: 50%;
+    transform: translateX(-50%);   
+  }
+
+  #illustration {
+    height: 30%;
+  }
+
+  #faq {
+    margin-top: 100px;
+    overflow: hidden;
+  }
+
+  .questions-container {
+    margin: 0 1.5em 0 1em;
+  }
+  .questions-container:hover {
+      color:black;
+    } 
+  #faq-container {
+    min-height: 80%;
+  }  
+
+  .active-p{
+  height: auto;
+  max-height: 100px;
+  opacity: 1;
+  padding-bottom: 15em;
+  font-size: 11px;
+
+  } 
+   .answers{
+      margin: 0;
+      height: 0;
+      max-height: 0;
+      opacity: 0;
+      line-height: 1.4em;
+      transition: max-height 0.5s ease-out, opacity 0.2s;
+      margin-left: 22px;
+      font-size: 11px;
+  }
+  .attribution {
+    margin-top: 15vh;
+  }
+}
+
+
+
+.questions-container{
+  border-bottom: 1px solid black;
+  margin-right: 8.5em;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  cursor: pointer;
+
+}
+.answers{
+  margin: 0;
+  height: 0;
+  max-height: 0;  
+  opacity: 0;
+  line-height: 2.5em;
+  transition: max-height 0.5s ease-out, opacity 0.2s;  
+  margin-left: 22px;
+  font-size: 13px;
+  
+}
+.questions{
+  margin: 20px;
+  font-size: 1.2em;
+  font-weight: 400;
+  transform: all 0.4s;
+}
+.arrow{
+  cursor: pointer;
+  position: absolute;
+  top: 2em;
+  right: 1em;
+  transition: transform 0.5s;
+ 
+  
+}
+.active-h4{
+  height: auto;
+  max-height: 100px; 
+  opacity: 1;
+  margin-top:0;
+  padding-bottom: 0.5em; 
+}
+.active-p{
+  height: auto;
+  max-height: 100px; 
+  opacity: 1;
+  padding-top:0;
+  
+  margin-bottom: 5.9em;    
+}
