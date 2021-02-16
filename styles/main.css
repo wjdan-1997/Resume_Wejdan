@@ -34,8 +34,8 @@
  .col-md-4 mt-5{
   position: relative;
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 11px;
+  padding-left: 11px;
  }
  .jss1 {
   max-width: 345px;
@@ -61,9 +61,9 @@
   width: 100%;
 }
 .MuiCardContent-root h1{
-  font-family: 'Times New Roman', Times, serif;
+  font-family:'Times New Roman', Times, serif;
   color: black;
-  font-size:26px;
+  font-size:19px;
 }
 .MuiDialog-container {
   height: 100%;
@@ -75,7 +75,7 @@
   justify-content: center;
 }
 .MuiDialog-paperWidthLg {
-  max-width: 1280px;
+  max-width: 1180px;
 }
 .MuiDialog-paperScrollPaper {
   display: flex;
@@ -94,7 +94,7 @@
   padding-top: 20px;
 }
 .MuiPaper-rounded {
-  border-radius: 4px;
+  border-radius: 22px;
 }
 .MuiDialogContent-root {
   flex: 1 1 auto;
@@ -171,7 +171,7 @@ img {
   border-style: none;
 }
 .MuiCardContent-root {
-  padding: 16px;
+  padding: 11px;
 }
 .MuiTypography-gutterBottom {
   margin-bottom: 0.35em;
@@ -200,7 +200,8 @@ h1 {
   line-height: 1.43;
   letter-spacing: 0.01071em;
 }.MuiTypography-colorTextSecondary {
-  color: rgba(0, 0, 0, 0.54);
+
+  color: rgba(0, 0, 0, 0.74);
 }
 .MuiCardActions-root {
   display: flex;
@@ -3716,7 +3717,7 @@ body {
 }
 
 .bg-primary {
-  background-color: rgb(223 92 52);
+  background-color: #df5c34;
 }
 
 .bg-info {

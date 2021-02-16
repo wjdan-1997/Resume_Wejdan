@@ -172,7 +172,7 @@
   }
   .questions-active {
     font-weight: 700;
-    color: #8400ff;
+    color:rgb(223 92 52)
   }
   .active {
     height: auto;
@@ -210,6 +210,7 @@
   }
   
   #illustration {
+    color: #FFFFFF;
     width: 50%;
     min-height: 100%;
     height: 100%;  
