@@ -160,9 +160,9 @@ section {
   color: black;
 }
 .h4 h4{
-  font-size: 6.5rem;
-    color:black;
-    margin-bottom: 64px;
+  font-size: 4.5rem;
+  color:black;
+  margin-bottom: 64px;
 }
 img, svg {
   vertical-align: middle;
@@ -3222,7 +3222,8 @@ p {
 }
 
 .title {
-  font-weight: 700;
+  font-weight: 400;
+  color:#000
 }
 
 .title.title-up {
@@ -3245,11 +3246,12 @@ p {
   font-weight: 300;
 }
 
-.category {
-  font-size: small;
+p .category {
+  font-size: medium;
   text-transform: capitalize;
-  font-weight: 700;
-  color: black;
+  font-weight: 900;
+  color: red;
+  
 }
  
 .blockquote {
@@ -3297,11 +3299,11 @@ body {
   color: black;
   margin: 0;
   font-family: 'Times New Roman', Times, serif;
-line-height: 1.5;
-  text-align: left;background-color: #fff;
+  line-height: 1.5;
+  text-align: left;
+  background-color: #fff;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-
 }
 
 .main {
@@ -3562,13 +3564,14 @@ line-height: 1.5;
 }
 
 .navbar a:not(.btn):not(.dropdown-item) {
-  color: #FFFFFF;
+  color: #100707;
+  font-weight: 700;
 }
 
 .navbar p {
   display: inline-block;
   margin: 0;
-  line-height: 21px;
+  line-height: 11px;
 }
 
 .navbar .navbar-nav.navbar-logo {
@@ -3576,7 +3579,7 @@ line-height: 1.5;
   left: 0;
   right: 0;
   margin: 0 auto;
-  width: 49px;
+  width: 19px;
   top: -4px;
 }
 
@@ -3593,11 +3596,12 @@ line-height: 1.5;
 }
 
 .navbar .navbar-nav .nav-link:not(.btn) {
-  text-transform: uppercase;
+  text-transform: capitalize;
   font-size: 0.7142em;
-  text-align: l;
-  padding: 0.5rem 0.7rem;
+  text-align: right;
+  padding: 0.1rem 0.1rem;
   line-height: 1.625rem;
+  
 }
 
 .navbar .navbar-nav .nav-link:not(.btn) i.fa + p,
@@ -3610,7 +3614,7 @@ line-height: 1.5;
   font-size: 18px;
   position: relative;
   top: 2px;
-  text-align: center;
+  text-align: right;
   width: 21px;
 }
 
@@ -3712,7 +3716,7 @@ line-height: 1.5;
 }
 
 .bg-primary {
-  background-color: #343a40;
+  background-color: rgb(223 92 52);
 }
 
 .bg-info {
@@ -5442,10 +5446,10 @@ Created using IcoMoon - icomoon.io
 }
 
 .page-header {
-  height: 100vh;
-  max-height: 1050px;
-  padding: 0;
-  color: #FFFFFF;
+  height: 120vh;
+  max-height: 1250px;
+  padding-top: 22px;
+  /* color: #FFFFFF; */
   position: relative;
   background-position: center center;
   background-size: cover;
@@ -5469,7 +5473,8 @@ Created using IcoMoon - icomoon.io
 .page-header .container {
   height: 100%;
   z-index: 1;
-  text-align: center;
+  text-align: right;
+  
   position: relative;
 }
 
@@ -5492,8 +5497,8 @@ Created using IcoMoon - icomoon.io
 }
 
 .page-header.page-header-small {
-  height: 60vh;
-  max-height: 440px;
+  height: 970vh;
+  max-height: 990px;
 }
 
 .page-header:after, .page-header:before {
@@ -5508,7 +5513,7 @@ Created using IcoMoon - icomoon.io
 }
 
 .page-header:before {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.096);
 }
 
 .page-header[filter-color="orange"] {
@@ -7186,7 +7191,7 @@ Created using IcoMoon - icomoon.io
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: center;
-    background-color: #343a40;
+    background-color: rgb(223 92 52);
     color: white;
   }
   #certificationimg{
@@ -7236,8 +7241,14 @@ Created using IcoMoon - icomoon.io
   }
 }
 .content-center a{
-  color: white;
+  color: black;
   letter-spacing: 2px;
+
+  
+}
+#download_button{
+ 
+  background-color:#888 ;
   
 }
 .content-center{
@@ -7414,7 +7425,8 @@ Created using IcoMoon - icomoon.io
 .navbar {
   font-size: 21px;
   letter-spacing: 1px;
-  text-align: center;
+  text-align: r;
+  margin-right: 9;
 }
 
 /* Body */
@@ -7688,13 +7700,13 @@ li {
 ul {
    margin-top: 0;
    margin-bottom: 0.1rem;
-  display: block;
-  list-style-type: disc;
-  margin-block-start: 1em;
-  margin-block-end:2em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  padding-inline-start: 90px;
+   display: block;
+   list-style-type: disc;
+   margin-block-start: 1em;
+   margin-block-end:2em;
+   margin-inline-start: 0px;
+   margin-inline-end: 0px;
+   padding-inline-start: 90px;
 }
 
 .education-main{
@@ -7811,10 +7823,7 @@ button:focus {
   height: 100%;
 }
 section{ display: block;}
-#title{
-font-size: 2.3em;
-font-weight: 700;
-}
+#title{font-size: 2.3em;font-weight: 700;/* text-align: center; */margin-left: 12px;}
 
 
 

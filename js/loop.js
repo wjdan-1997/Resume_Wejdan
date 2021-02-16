@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function buildNav() {
             let liTag = document.createElement('li');
             liTag.setAttribute('class', 'nav-item');
             aLinkTag.setAttribute('class','nav-link')
-            let liTagId = 'li_' + one.getAttribute('id');
+            let liTagId =  one.getAttribute('id');
             liTag.setAttribute('id', liTagId)
             aLinkTag.textContent = one.getAttribute('data-nav'); // take the value
             liTag.addEventListener('click', () => {

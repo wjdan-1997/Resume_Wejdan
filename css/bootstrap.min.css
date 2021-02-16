@@ -100,11 +100,11 @@ section {
 body {
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    font-size: 1rem;
+    font-size: 12;
     font-weight: 400;
     line-height: 1.5;
-    color: #212529;
-    background-color: #fff
+    color: b;
+    background-color: #fff;
 }
 
 [tabindex="-1"]:focus {
@@ -764,7 +764,7 @@ pre code {
     width: 100%;
     min-height: 1px;
     padding-right: 15px;
-    padding-left: 15px
+    padding-left: 15px;
 }
 
 .col {
@@ -3444,10 +3444,10 @@ tbody.collapse.show {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     -ms-flex-align: center;
-    align-items: center;
+    align-items: r;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    padding: .5rem 1rem
+    padding: .5rem 1rem;
 }
 
 .navbar>.container,
@@ -3484,7 +3484,7 @@ tbody.collapse.show {
     flex-direction: column;
     padding-left: 0;
     margin-bottom: 0;
-    list-style: none
+    list-style: none;
 }
 
 .navbar-nav .nav-link {
@@ -3641,7 +3641,7 @@ tbody.collapse.show {
         -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
         -ms-flex-pack: start;
-        justify-content: flex-start
+        justify-content: ;
     }
     .navbar-expand-lg .navbar-nav {
         -ms-flex-direction: row;
@@ -6581,11 +6581,12 @@ a.bg-dark:hover {
 }
 
 .fixed-top {
+    FONT-WEIGHT: 200;
     position: fixed;
     top: 0;
     right: 0;
     left: 0;
-    z-index: 1030
+    z-index: 1030;
 }
 
 .fixed-bottom {

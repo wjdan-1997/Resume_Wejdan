@@ -103,6 +103,7 @@ $(document).ready(function() {
 $(window).on('resize', function() {
     nowuiKit.initNavbarImage();
 });
+// for navbar hideen 
 
 $(document).on('click', '.navbar-toggler', function() {
     $toggle = $(this);
