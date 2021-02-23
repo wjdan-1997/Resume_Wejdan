@@ -5936,8 +5936,8 @@ Created using IcoMoon - icomoon.io
     /* For Safari 5.1 to 6.0 */
     /* For Opera 11.1 to 12.0 */
     /* For Firefox 3.6 to 15 */
-    background: -webkit-gradient(linear, left top, left bottom, from(#343a40), color-stop(80%, #000));
-    background: linear-gradient(#343a40, #a8bed4 80%);
+    background: -webkit-gradient(linear, left top, left bottom, from(#e2d6c7), color-stop(80%, rgb(241, 230, 230)));
+    background: linear-gradient(#d66b50, #e5e8eb 80%);
     /* Standard syntax (must be last) */
     opacity: 0.76;
     filter: alpha(opacity=76);
