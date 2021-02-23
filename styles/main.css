@@ -57,6 +57,25 @@
 .MuiCardMedia-img {
   object-fit: cover;
 }
+
+.lol::after{content: attr(data-category);
+  position: absolute;
+  bottom: 217px;
+  margin-left:0px;
+  padding: 6px 8px;
+  max-width: calc((100%) - 60px);
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #df5c34;
+  border-top-right-radius: 12px;
+ 
+
+  text-transform: capitalize;
+  box-sizing: border-box;
+  
+ 
+}
 .MuiCardMedia-media {
   width: 100%;
 }
